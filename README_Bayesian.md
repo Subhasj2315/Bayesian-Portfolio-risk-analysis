@@ -141,6 +141,15 @@ Bayesian-Portfolio-Risk-Analysis/
 
 ---
 
+### Results 
+''' python
+import pandas as pd
+
+df = pd.read_csv("posterior_results.csv")
+
+print(df.to_markdown(index=False))
+'''
+
 ## Future Improvements
 
 - Student-t Bayesian Models
